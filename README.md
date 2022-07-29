@@ -1,7 +1,7 @@
 # Project 12
 Hello, my name is paras jogani and I create a template using HTML and CSS.
 
-I learn lot of in this 12th project of my javascript bootcamp. I
+I learn lot of in this 12th project of my javascript bootcamp.
 
 - I learn various uses of `div`
 - I learn uses of flex and child property to give CSS for the one element
