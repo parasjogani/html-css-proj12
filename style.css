@@ -311,3 +311,112 @@ footer {
     font-size: 14px;
     font-family: "Poppins";
 }
+
+/* media query */
+
+@media screen and (max-width:1024px) {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .nav-item {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logo img {
+        width:100px;
+    }
+
+    .button {
+        width: 150px;
+    }
+    
+    header {
+        height: 800px;
+    }
+
+    .image img {
+        width: 378px;
+    }
+
+    .content {
+        width: 378px;
+    }
+
+    .heading h1 {
+        width: 378px;
+        margin-top: 48px;
+        margin-left: -348px;
+        font-size: 32px;
+    }
+
+    .stats {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .care-head {
+        font-size: 32px;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post .post-content {
+        width: 378px;
+        gap: 14px;
+    }
+
+    .team-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-head h1 {
+        width: 378px;
+        margin-top: 14px;
+    }
+
+    .team-head p {
+        width: 378px;
+        margin-top: 14px;
+    }
+
+    .team-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .team-bottom img {
+        width: 50vw;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    .socials {
+        margin-left: 38px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}
